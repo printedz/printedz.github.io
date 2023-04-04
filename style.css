@@ -27,7 +27,7 @@ a:hover {
 
 .prompt::before {
   content: "printed@printedz.me ~> ";
-  color: white;
+  color: yellowgreen;
 }
 
 
