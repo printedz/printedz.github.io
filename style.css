@@ -23,7 +23,7 @@ a:hover {
 
 .prompt {
   align-items: center;
-  margin: 4px;
+  margin: 6px;
 }
 
 .prompt::before {
@@ -34,7 +34,7 @@ a:hover {
 
 .output {
   margin-left: 20px;
-  margin: 4px;
+  margin: 6px;
 }
 
 div.output a {
