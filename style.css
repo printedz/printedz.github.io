@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #222;
+  padding: 5px;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.prompt {
+  align-items: center;
+}
+
+.prompt::before {
+  content: "printed@printedz.me ~> ";
+  color: white;
+}
+
+
+.output {
+  margin-left: 20px;
+}
+
+div.output a {
+  color: lightgreen;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,17 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html>
   <head>
-
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>printed</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <b><font size="+1">Welcome to my blog! </font></b><b>Currently
-      there is just one article, but I plan on adding more in the
-      future.</b><b><br>
-      <br>
-      <a moz-do-not-send="true" href="blog_entries/linux_journey.html">My
-        GNU/Linux journey</a> - 02/04/2023<br>
-      <br>
-    </b><br>
+    <header>
+      <a href="/index.html">Home</a> | <a href="#">Blog</a> | <a href="https://github.com/printedz">GitHub</a>
+    </header>
+    <div class="prompt">cat blog_entries/message.txt</div>
+    <div class="output">Welcome to my blog! Currently there is just one article, but I plan on adding more in the future.</div>
+    <div class="prompt">ls -l blog_entries/</div>
+    <div class="output">
+      drwxr-xr-x  3 root root 4096 Apr  2 13:31 <a href="#">message.txt</a><br>
+      drwxr-xr-x  3 root root 4096 Apr  2 01:08 <a href="blog_entries/linux_journey.html">my-gnu-linux-journey</a>
+    </div>
   </body>
 </html>
