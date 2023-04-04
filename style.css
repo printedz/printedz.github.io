@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: #fff;
-  margin: 0;
+  margin: 0px;
   font-family: monospace;
   font-size: 17px;
   line-height: 1.5;
@@ -23,6 +23,7 @@ a:hover {
 
 .prompt {
   align-items: center;
+  margin: 4px;
 }
 
 .prompt::before {
@@ -33,6 +34,7 @@ a:hover {
 
 .output {
   margin-left: 20px;
+  margin: 4px;
 }
 
 div.output a {
