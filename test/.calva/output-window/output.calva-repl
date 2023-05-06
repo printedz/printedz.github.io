@@ -28,4 +28,11 @@ clj꞉test.core꞉> println("hi")
 clj꞉test.core꞉> (println "hi")
 hi
 nil
+clj꞉test.core꞉> "It was the panda in the library with a dust buster"
+clj꞉test.core꞉> 
+Hello, World!
+nil
+clj꞉test.core꞉> 
+Hello, World!
+nil
 clj꞉test.core꞉> 
