@@ -1,3 +1,4 @@
 .lsp
 .clj-kondo
 test/.calva/output-window
+.vscode
