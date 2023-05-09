@@ -1,3 +1,14 @@
+@keyframes slidein {
+  from {
+    /* pushes the sun down past the viewport */
+    transform: translateY(110vh);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: translateY(0);
+  }
+}
+
 body {
   background-color: black;
   color: #fff;
@@ -5,12 +16,18 @@ body {
   font-family: monospace;
   font-size: 17px;
   line-height: 1.5;
+  /* animation: 3s linear 1s infinite alternate slidein; */
 }
+
 
 header {
   background-color: #222;
   padding: 5px;
+
 }
+/* header:hover {
+  /* transform: skew(-0.2deg, -0.2deg); 
+} */
 
 a {
   color: blueviolet;
@@ -19,6 +36,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: aqua;
 }
 
 .prompt {
@@ -41,6 +59,10 @@ a:hover {
 
 div.output a {
   color: lightgreen;
+}
+
+div.output a:hover{
+  color: deepskyblue;
 }
 
 .container {
