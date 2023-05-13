@@ -8,10 +8,9 @@ function registerScript(scriptPath) {
     s.parentNode.insertBefore(scriptTag, s);
 }
 
-if (navigator.doNotTrack == 0 || navigator.doNotTrack == null) {
+if (navigator.doNotTrack == 1) {
+    console.log("Telemetry disabled, DNT header found")
+} else {
     registerScript("//gc.zgo.at/count.js")
     console.log("SAY HI TO TRACKING!! ENABLE DO NOT TRACK HEADERS IN YOUR WEB BROWSER TO DISABLE IT!!")
 } 
-if (navigator.doNotTrack == 1) {
-    console.log("Telemetry disabled, DNT header found")
-}
