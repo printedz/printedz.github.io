@@ -10,7 +10,9 @@ function registerScript(scriptPath) {
 
 if (navigator.doNotTrack == 1) {
     console.log("Telemetry disabled, DNT header found")
+    console.log("https://www.eff.org/issues/do-not-track")
 } else {
     registerScript("//gc.zgo.at/count.js")
     console.log("SAY HI TO TRACKING!! ENABLE DO NOT TRACK HEADERS IN YOUR WEB BROWSER TO DISABLE IT!!")
+    console.log("https://www.eff.org/issues/do-not-track")
 } 
