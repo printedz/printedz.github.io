@@ -32,6 +32,9 @@ a {
   color: blueviolet;
   text-decoration: none;
 }
+header a {
+  color: #F542D6
+}
 
 a:hover {
   text-decoration: underline;
