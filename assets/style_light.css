@@ -10,7 +10,7 @@
   }
   
   body {
-    background-color: rgb(245, 255, 243);
+    background-color: #ffffff;
     color: #000000;
     margin: 0px;
     font-family: monospace;
@@ -20,7 +20,7 @@
   }
   
   header {
-    background-color: #c8eec8;
+    background-color: #dde8c1;
     padding: 5px;
   
   }
@@ -56,12 +56,12 @@
   .output {
     margin-left: 20px;
     margin: 6px;
-    color: rgb(133, 28, 133);
+    color: #5700a8;
   }
   
   div.output a {
     /* color: rgb(229, 139, 199); */
-    color: rgb(96, 103, 1);
+    color: darkcyan;
     text-decoration: underline;
   }
   
@@ -70,7 +70,7 @@
   }
   
   .telemetry {
-    border: solid thick rgb(136, 0, 154);
+    border: solid thick rgb(0, 154, 113);
     border-radius: 0.4em;
     border-width: 2px;
     padding: 6px 9px;
