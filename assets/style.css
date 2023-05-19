@@ -93,6 +93,20 @@ div.output a:hover{
   }
 }
 
+#embed-maniac {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#song-month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
 
 
 
