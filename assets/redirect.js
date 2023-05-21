@@ -3,4 +3,7 @@ async function goBack() {
     await sleep(3000);
     history.back();
 }
-goBack();
+
+document.addEventListener("DOMContentLoaded", function() {
+    goBack();
+});
