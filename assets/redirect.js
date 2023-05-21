@@ -1,9 +1,10 @@
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function goBack() {
-    await sleep(3000);
+    await sleep(2800);
     history.back();
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function() {
     goBack();
-});
+}, true);
+
