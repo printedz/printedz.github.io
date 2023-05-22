@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 
-@keyframes slidein {
-  from {
-    /* pushes the sun down past the viewport */
-    transform: translateY(110vh);
-  }
-  to {
-    /* returns the sun to its default position */
-    transform: translateY(0);
-  }
-}
-
 body {
   background-color: black;
   color: #fff;
@@ -71,30 +60,6 @@ div.output a:hover{
   color: rgb(255, 60, 60);
 }
 
-.telemetry {
-  border: solid thick rgb(243, 155, 255);
-  border-radius: 0.4em;
-  border-width: 1.8px;
-  padding: 6px 9px;
-  /* max-width: 600px; */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* width: 75%; */
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .telemetry {
-    width: 85%;
-  }
-}
-
-@media (min-width: 768px) {
-  .telemetry {
-    width: 60%;
-  }
-}
 
 #embed-maniac {
   display: flex;
@@ -111,26 +76,8 @@ div.output a:hover{
   margin-bottom: 1.5em;
 }
 
-@keyframes animatedOne {
-  from {
-      background-position: 0 0;
-  }
-  to {
-      background-position: 100% 0;
-  }
-}
 
-.fire {
-  font-family: 'Steelfish Rg', 'helvetica neue',
-                        helvetica, arial, sans-serif;
-  font-size: 5rem;
-  mix-blend-mode: screen;
-  /* animation: animatedOne 30s linear infinite; */
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c4/Oleaje_Tasmania_3.jpg");
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 
 
