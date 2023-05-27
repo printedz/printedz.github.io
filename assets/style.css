@@ -63,7 +63,13 @@ div.output a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  
+}
+
+iframe {
+  border-color: mediumspringgreen;
+  border-radius: 0.9vw;
+  border-width: 0.2vw;
+  border-style: outset;
 }
 
 #song-month {
