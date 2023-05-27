@@ -1,4 +1,4 @@
-function registerScript(scriptPath) {
+async function registerScript(scriptPath) {
     var scriptTag = document.createElement('script');
     scriptTag.type = 'text/javascript';
     scriptTag.async = true;
@@ -12,7 +12,9 @@ if (navigator.doNotTrack == 1) {
     console.log("Telemetry disabled, DNT header found");
     console.log("https://www.eff.org/issues/do-not-track");
 } else {
-    registerScript("//gc.zgo.at/count.js");
+    window.addEventListener("load", function() {
+        registerScript("//gc.zgo.at/count.js");
+    }, true);
     console.log("SAY HI TO TRACKING!! ENABLE DO NOT TRACK HEADERS IN YOUR WEB BROWSER TO DISABLE IT!!");
     console.log("https://www.eff.org/issues/do-not-track");
 }
