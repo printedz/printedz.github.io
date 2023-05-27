@@ -65,13 +65,25 @@ div.output a:hover{
   justify-content: center;
 }
 
+#embed-maniac iframe {
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='auto' width='100%'><text x='35' y='75' fill='honeydew' font-size='20'>Maniac by Michael Sembello</text></svg>");
+}
+
 iframe {
   border-color: mediumspringgreen;
   border-radius: 0.9vw;
-  border-width: 0.2vw;
+  border-width: 0.3vw;
   border-style: outset;
 }
 
+@media (max-width: 800px) {
+  iframe {
+    border-width: 1vw;
+  }
+}
 #song-month {
   display: flex;
   align-items: center;
@@ -79,6 +91,9 @@ iframe {
   font-weight: bold;
   margin-bottom: 1.5em;
 }
+
+
+
 
 
 
